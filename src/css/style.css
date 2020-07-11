@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 50px;
+}
+
+/*===Collapse===*/
+.collapsible__button {
+  background-color: greenyellow;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.collapsible__text {
+  padding: 5px;
+  width: 200px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: height, opacity, 2s;
+}
+
+.collapsible-active {
+  height: 120px;
+  opacity: 1;
+  transition: height, opacity, 1s;
+}
+
+/*===Callback Chat===*/
+#callback-chat__block {
+  width: 250px;
+  position: relative;
+}
+
+.chat__form {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #11f0d2
+}
+
+.chat__header {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat__close-button {
+  cursor: pointer;
+}
+
+.chat__text {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 200px;
+}
+
+.chat__open-button {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  position: absolute;
+  right: -25px;
+  bottom: -25px;
+}
+
+.callback-chat__active  {
+  opacity: 1;
+  transition: opacity, 1s;
+}
+
+.callback-chat__disabled  {
+  opacity: 0;
+  transition: opacity, 1s;
+}
+
+/*===Liker===*/
+#liker__block {
+  margin-top: 10px;
+  margin-left: 100px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.liker__button {
+  width: 200px;
+  height: 30px;
+  background-color: #00ff00;
+}
+
+.heart {
+  position: absolute;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes heart1 {
+  0% {
+      opacity: 1;
+      bottom: 15%;
+      left: 40%;
+  }
+  25% {
+      opacity: 0;
+      bottom: 35%;
+      left: 20%;
+  }
+  50% {
+      opacity: 1;
+      bottom: 55%;
+      left: 40%;
+  }
+  75% {
+      opacity: 0;
+      bottom: 75%;
+      left: 60%;
+  }
+  100% {
+      opacity: 0;
+      bottom: 105%;
+      left: 40%;
+  }
+}
+
+@keyframes heart2 {
+  0% {
+      opacity: 1;
+      bottom: 15%;
+      left: 40%;
+  }
+  25% {
+      opacity: 0;
+      bottom: 35%;
+      left: 40%;
+  }
+  50% {
+      opacity: 1;
+      bottom: 55%;
+      left: 60%;
+  }
+  75% {
+      opacity: 0;
+      bottom: 75%;
+      left: 20%;
+  }
+  100% {
+      opacity: 0;
+      bottom: 105%;
+      left: 40%;
+  }
+}
+
+@keyframes heart3 {
+  0% {
+      opacity: 1;
+      bottom: 15%;
+      left: 40%;
+  }
+  25% {
+      opacity: 0;
+      bottom: 35%;
+      left: 40%;
+  }
+  50% {
+      opacity: 1;
+      bottom: 55%;
+      left: 20%;
+  }
+  75% {
+      opacity: 0;
+      bottom: 75%;
+      left: 60%;
+  }
+  100% {
+      opacity: 0;
+      bottom: 105%;
+      left: 40%;
+  }
+}
+
+@keyframes heart4 {
+  0% {
+      opacity: 1;
+      bottom: 15%;
+      left: 40%;
+  }
+  25% {
+      opacity: 0;
+      bottom: 35%;
+      left: 60%;
+  }
+  50% {
+      opacity: 1;
+      bottom: 55%;
+      left: 40%;
+  }
+  75% {
+      opacity: 0;
+      bottom: 75%;
+      left: 20%;
+  }
+  100% {
+      opacity: 0;
+      bottom: 105%;
+      left: 40%;
+  }
+}
+
+
