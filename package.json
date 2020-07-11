@@ -1,5 +1,5 @@
 {
-  "name": "3-1__top-task",
+  "name": "9__animation",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "webpack --mode production",
     "serv": "static build"
   },
-  "repository": "https://github.com/Evgeniy-Varlamov/ahj9__3.2__top-task.git",
+  "repository": "https://github.com/Evgeniy-Varlamov/ahj9__9__Anim.git",
   "author": "Evgeniy-Varlamov",
   "license": "MIT",
   "devDependencies": {
